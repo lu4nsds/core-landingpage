@@ -1,5 +1,6 @@
 import '../styles/main.css'
 import '../styles/header.css'
+import logo from '../assets/logo/logo-core-horizontal.svg'
 
 export default function Header() {
 
@@ -8,7 +9,7 @@ export default function Header() {
             <div className="container">
                 <div className="headerContent">
                     <div className="logo">
-                        <h1>CORE</h1>
+                        <img className='logoImage' src={logo} />
                     </div>
                     <ul className="menu">
                         <li className="menuItem">

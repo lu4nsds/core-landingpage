@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     background: #3C3C3B;
-    height: 60px;
+    height: 90px;
     color: #fff;
 }
 .headerContent{
@@ -23,15 +23,35 @@
 
 .menu .menuItem{
     padding: 8px 16px;
-    border-bottom: 2px solid transparent;
+    border-bottom: 3px solid transparent;
+    cursor: pointer;
+    transition: 300ms;
 }
 .menu .menuItem:hover{
-    border-bottom: 2px solid #fff;
+    border-bottom: 3px solid #00B8BF;
+    transition: 300ms;
 }
 
 .action{
-    width: 180px;
+    width: 200px;
     padding: 8px 16px;
     border-radius: 16px;
-    border: none;
+    border: 3px solid #00B8BF;
+    background: none;
+    color: #fff;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: 300ms;
+}
+.action:hover{
+    border: 3px solid transparent;
+    background: #00B8BF;
+}
+
+.logo{
+    display: flex;
+}
+.logo .logoImage{
+    width: 100%;
+    height: auto;
 }

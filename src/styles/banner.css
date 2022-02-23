@@ -1,0 +1,43 @@
+.containerBanner{
+    display: flex;
+    justify-content: center;
+}
+.bannerContent{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.containerTitle{
+    position: relative;
+    left: 0;
+    width: 40%;
+    top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 600px;
+}
+.separator{
+    width: 50px;
+    height: 8px;
+    background: #00B8BF;
+}
+.title{
+    font-size: 100px;
+    font-weight: 900;
+    color: #04ACBC;
+}
+.subtitle{
+    font-size: 64px;
+    font-weight: 400;
+    color: #BDBFC1;
+}
+
+.containerImage{
+    position: relative;
+    width: 50%;
+    right: 0;
+    top: 30px;
+}

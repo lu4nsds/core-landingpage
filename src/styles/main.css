@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Gotham";
+  src: url("../assets/fonts/GothamRounded-Bold.otf") format("otf")
+}
+
+*, body, html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: "Gotham";
+}
+
+.container{
+    max-width: 80rem;
+    width: 100%;
+}

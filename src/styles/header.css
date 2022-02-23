@@ -1,0 +1,37 @@
+.containerHeader{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: #3C3C3B;
+    height: 60px;
+    color: #fff;
+}
+.headerContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    list-style: none;
+}
+
+.menu .menuItem{
+    padding: 8px 16px;
+    border-bottom: 2px solid transparent;
+}
+.menu .menuItem:hover{
+    border-bottom: 2px solid #fff;
+}
+
+.action{
+    width: 180px;
+    padding: 8px 16px;
+    border-radius: 16px;
+    border: none;
+}

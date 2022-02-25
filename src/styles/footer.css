@@ -1,0 +1,73 @@
+.containerFooter{
+    background-color: #747474;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* Retirar depois */
+    position: fixed;
+    bottom: 0;
+    /* Retirar depois */
+}
+
+.footerContent{
+    display: flex;
+    width: 100%;
+    padding: 40px 0;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.logoCoreFooter img{
+    width: 120px;
+}
+
+.footerCall{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 24px;
+    max-width: 200px;
+}
+
+.footerCall .callText{
+    font-size: 14px;
+}
+
+.footerCall .action{
+    width: 200px;
+    height: 45px;
+    padding: 8px 16px;
+    border-radius: 16px;
+    border: 2px solid #fff;
+    background: none;
+    color: #fff;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.footerAdress{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.footerAdress .adressTitle{
+    font-size: 24px;
+}
+
+.footerAdress .adressContent h3{
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.footerMenu{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.footerMenu a{
+    color: #fff;
+    text-decoration: none;
+}

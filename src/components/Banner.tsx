@@ -14,7 +14,7 @@ export default function Banner() {
                             SOLUÇÕES INOVADORAS
                         </h2>
                         <h3 className='subtitle'>
-                            PARA GESTÃO EM SAÚDE
+                            PARA A GESTÃO EM SAÚDE
                         </h3>
                         <div className="separator">
 

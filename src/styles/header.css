@@ -53,5 +53,6 @@
 }
 .logo .logoImage{
     width: 100%;
+    min-width: 100px;
     height: auto;
 }

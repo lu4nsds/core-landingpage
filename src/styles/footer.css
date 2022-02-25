@@ -19,6 +19,7 @@
 
 .logoCoreFooter img{
     width: 120px;
+    display: block;
 }
 
 .footerCall{
@@ -71,3 +72,19 @@
     color: #fff;
     text-decoration: none;
 }
+
+/* MOBILE */
+
+@media only screen and (max-width: 768px) {
+    .footerContent {
+      flex-direction: column;
+      padding: 40px 24px;
+      gap: 32px;
+    }
+
+    .logoCoreFooter{
+        width: fit-content;
+    }
+}
+
+/* MOBILE */

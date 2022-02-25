@@ -1,0 +1,61 @@
+
+.containerServices{
+    display: flex;
+    width: 100%;
+    background: #E5E5E5;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.topic{
+    font-size: 32px;
+    font-weight: 800;
+    color: #00B8BF;
+}
+
+.containerList{
+    display: flex;
+    max-width: 80rem;
+    width: 100%;
+    align-items: center;
+}
+
+.services{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.serviceList{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100px 100px;
+    grid-template-areas: "image" "text" "stats";
+    border-radius: 18px;
+    background: rgb(255, 255, 255);
+    box-shadow: 5px 5px 15px rgba(61, 61, 61, 0.548);
+    text-align: center;
+    
+}
+
+.serviceImage{
+    grid-area: image;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+
+.cardArea{    
+    display: flex;    
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.separatorTopic{
+    width: 50px;
+    height: 8px;
+    background: #BDBFC1;
+}

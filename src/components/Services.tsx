@@ -6,23 +6,29 @@ export default function Services() {
     const services = [{
         image:lula,
         title:'Serviço da Core',
-        descricao: 'Descricao do serviço da Core'        
+        description: 'Descricao do serviço da Core'        
     },
     {
         image:lula,
         title:'Serviço da Core',
-        descricao: 'Descricao do serviço da Core'        
+        description: 'Descricao do serviço da Core'        
     },
     {
         image:lula,
         title:'Serviço da Core',
-        descricao: 'Descricao do serviço da Core'        
+        description: 'Descricao do serviço da Core'        
     },
     {
         image:lula,
         title:'Serviço da Core',
-        descricao: 'Descricao do serviço da Core'        
+        description: 'Descricao do serviço da Core'        
     },
+    {
+        image:lula,
+        title:'Serviço da Core',
+        description: 'Descricao do serviço da Core'        
+    },
+    
     ]
 
     return (
@@ -36,11 +42,25 @@ export default function Services() {
                     <div className='cardArea'>
                         {services.map((service)=>{
                             return (
-                                <div className="serviceList">
-                                    <text>
-                                        {service.title}
-                                        {service.descricao}
-                                    </text>
+                                <div className="serviceListConteiner">
+                                    <div className="serviceList">
+                                       <div className='serviceImageArea'>
+                                        <img className='serviceImage' src={lula} alt="serviceImage" />
+                                       </div>
+                                       <div className='serviceContent'>
+                                            <div className='serviceTitle'>
+                                                <h2>
+                                                    {service.title}
+                                                </h2>
+                                            </div>
+                                            <div className="separatorTopic"/>
+                                            <div className='serviceDescription'>
+                                                <p>
+                                                    {service.description}
+                                                </p>
+                                            </div>
+                                       </div>
+                                    </div>
                                 </div>
                             )
                         })} 

@@ -6,6 +6,9 @@
     background: #3C3C3B;
     height: 90px;
     color: #fff;
+    position: fixed;
+    z-index: 1;
+    top: 0;
 }
 .headerContent{
     display: flex;
@@ -55,4 +58,24 @@
     width: 100%;
     min-width: 100px;
     height: auto;
+}
+
+
+@media screen and (max-width: 1048px){
+    /* HEADER */
+    .menu{
+        display: none;
+    }
+    .containerHeader{
+        height: 72px;
+    }
+    .headerContent{
+        justify-content: center;
+    }
+    .headerContent .logo{
+        max-height: 64px;
+    }
+    .headerContent .action{
+        display: none;
+    }
 }

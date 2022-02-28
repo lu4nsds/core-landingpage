@@ -1,23 +1,28 @@
 .containerBanner{
     display: flex;
     justify-content: center;
+    width: 100%;
+    height: 640px;
+    background: #444;
+    margin-top: 90px;
 }
 .bannerContent{
     position: relative;
     width: 100%;
     display: flex;
     flex-wrap: nowrap;
+    height: 100%;
 }
 
 .containerTitle{
     position: absolute;
     left: 0;
     width: 40%;
-    top: 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 40vw;
+    height: 100%;
+    padding-top: 24px;
 }
 .separator{
     width: 50px;
@@ -28,7 +33,13 @@
     font-size: 6.4vw;
     font-weight: 900;
     color: #04ACBC;
+    min-height: 224px;
 }
+
+.typed-cursor{
+    display: none;
+}
+
 .subtitle{
     font-size: 3.2vw;
     font-weight: 400;
@@ -39,5 +50,32 @@
     position: absolute;
     width: 50%;
     right: 0;
-    top: 30px;
+    height: 100%;
+    padding-top: 24px
+}
+.bannerImage{
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+}
+
+@media screen and (max-width: 1048px){
+
+    .containerBanner{
+        height: 56vw;
+        margin-top: 72px;
+    }
+    .containerTitle{
+        height: 56vw;
+    }
+    .containerTitle .title{
+        font-size: 7.2vw;
+        min-height: 72px;
+    }
+    .containerTitle .subtitle{
+        font-size: 4.8vw;
+    }
+    .containerImage{
+        right: 16px;
+    }
 }

@@ -1,0 +1,44 @@
+.containerCta{
+    background: #00B8BF;
+    height: 540px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cta{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+}
+.cta .separator{
+    background: #fff;
+}
+
+.titleCta{
+    font-size: 3.2vw;
+    font-weight: 400;
+    color: #5DEDF2;
+}
+.textCta{
+    font-size: 1.8vw;
+    font-weight: 400;
+    color: #fff;
+}
+
+.titleCta b{
+    color: #fff;
+}
+
+@media screen and (max-width: 1048px){
+    
+    .containerCta{
+        height: 240px;
+    }
+    .titleCta{
+        font-size: 7.2vw;
+    }
+    .textCta{
+        font-size: 3.2vw;
+    }
+}

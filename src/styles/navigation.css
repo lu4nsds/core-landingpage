@@ -36,7 +36,7 @@
     font-weight: 400;
 }
 
-@media screen and (max-width: 1048px){
+@media screen and (max-width: 1024px){
   .containerNavigation{
       display: flex;
   }

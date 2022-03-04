@@ -33,7 +33,7 @@ export default function Services() {
 
     return (
         <div className="containerServices">
-            <div className="containerList">
+            <div className="container">
                 <div className='services'>
                     <h1 className='topic'>
                         Nossos serviços  

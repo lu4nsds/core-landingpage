@@ -15,12 +15,12 @@
     color: #00B8BF;
 }
 
-.containerList{
+/* .containerList{
     display: flex;
     max-width: 80rem;
     width: 100%;
     align-items: center;
-}
+} */
 
 .services{
     display: flex;
@@ -30,13 +30,12 @@
 }
 
 .serviceListConteiner{
-    padding: 20px;
     width: 50%;
 
 }
 
 .serviceList{
-    min-width: 50%;
+    width: 100%;
     border-radius: 18px;
     background: rgb(255, 255, 255);
     box-shadow: 5px 5px 15px rgba(61, 61, 61, 0.548);
@@ -79,13 +78,13 @@
 }
 
 
-
 .cardArea{    
     display: flex;
     flex-wrap: wrap;    
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
+    gap: 24px;
 }
 
 .separatorTopic{
@@ -94,3 +93,34 @@
     background: #BDBFC1;
     margin-top: 10px;
 }
+
+/* MOBILE */
+
+@media only screen and (max-width: 1024px) {
+    .serviceImageArea{
+        width: 100%;
+    }
+
+    .serviceImage{
+        border-radius: 18px 18px 0px 0px;
+    }
+
+    .separatorTopic{
+        width: 50px;
+    }
+
+    .serviceListConteiner{
+        width: 100%;
+        padding: 0;
+    
+    }
+
+    .cardArea{ 
+        gap: 24px;
+        padding: 24px 0px;
+    }
+
+
+}
+
+/* MOBILE */

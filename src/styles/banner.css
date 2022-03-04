@@ -30,7 +30,7 @@
     background: #00B8BF;
 }
 .title{
-    font-size: 6.4vw;
+    font-size: 6.4rem;
     font-weight: 900;
     color: #04ACBC;
     min-height: 240px;
@@ -41,7 +41,7 @@
 }
 
 .subtitle{
-    font-size: 3.2vw;
+    font-size: 3.2rem;
     font-weight: 400;
     color: #BDBFC1;
 }
@@ -69,11 +69,11 @@
         height: 56vw;
     }
     .containerTitle .title{
-        font-size: 7.2vw;
+        font-size: 1.6rem;
         min-height: 72px;
     }
     .containerTitle .subtitle{
-        font-size: 4.8vw;
+        font-size: 0.8rem;
     }
     .containerImage{
         right: 16px;

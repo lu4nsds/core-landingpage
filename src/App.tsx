@@ -1,15 +1,20 @@
+
+import Footer from "./components/Footer"
 import Header from "./components/Header"
 import Banner from "./components/Banner"
 import Services from "./components/Services"
+import SectionCta from "./components/SectionCta"
 
 export default function App() {
 
 
   return (
     <>
-      <Header/>
-      <Banner/>
+      <Header />
+      <Banner />
+      <SectionCta />
       <Services/>
+      <Footer/>
     </>
   )
 }

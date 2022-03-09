@@ -27,7 +27,7 @@
 .separator{
     width: 50px;
     height: 8px;
-    background: #00B8BF;
+    background: #ffffff;
 }
 .title{
     font-size: 6.4rem;
@@ -59,7 +59,7 @@
     max-height: 100%;
 }
 
-@media screen and (max-width: 1048px){
+@media screen and (max-width: 1024px){
 
     .containerBanner{
         height: 56vw;
@@ -74,8 +74,5 @@
     }
     .containerTitle .subtitle{
         font-size: 0.8rem;
-    }
-    .containerImage{
-        right: 16px;
     }
 }

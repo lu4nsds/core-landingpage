@@ -30,7 +30,7 @@
 }
 
 .serviceListConteiner{
-    width: 50%;
+    width: 49%;
 
 }
 
@@ -84,6 +84,7 @@
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
+    padding: 24px 0px;
     gap: 24px;
 }
 
@@ -112,15 +113,7 @@
     .serviceListConteiner{
         width: 100%;
         padding: 0;
-    
     }
-
-    .cardArea{ 
-        gap: 24px;
-        padding: 24px 0px;
-    }
-
-
 }
 
 /* MOBILE */

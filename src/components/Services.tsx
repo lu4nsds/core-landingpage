@@ -1,34 +1,41 @@
 import '../styles/services.css'
 
-import lula from '../assets/img/lula.svg'
+import mri from '../assets/img/mri.jpg'
+import dentist from '../assets/img/dentist.jpg'
+import micro from '../assets/img/microscopio.jpg'
 
 export default function Services() {
     const services = [{
-        image:lula,
-        title:'Serviço da Core',
-        description: 'Descricao do serviço da Core'        
+        image: mri,
+        title: 'Serviço da Core',
+        description: 'Descricao do serviço da Core'
     },
     {
-        image:lula,
-        title:'Serviço da Core',
-        description: 'Descricao do serviço da Core'        
+        image: dentist,
+        title: 'Serviço da Core',
+        description: 'Descricao do serviço da Core'
     },
     {
-        image:lula,
-        title:'Serviço da Core',
-        description: 'Descricao do serviço da Core'        
+        image: micro,
+        title: 'Serviço da Core',
+        description: 'Descricao do serviço da Core'
     },
     {
-        image:lula,
-        title:'Serviço da Core',
-        description: 'Descricao do serviço da Core'        
+        image: mri,
+        title: 'Serviço da Core',
+        description: 'Descricao do serviço da Core'
     },
     {
-        image:lula,
-        title:'Serviço da Core',
-        description: 'Descricao do serviço da Core'        
+        image: dentist,
+        title: 'Serviço da Core',
+        description: 'Descricao do serviço da Core'
     },
-    
+    {
+        image: micro,
+        title: 'Serviço da Core',
+        description: 'Descricao do serviço da Core'
+    }
+
     ]
 
     return (
@@ -36,37 +43,37 @@ export default function Services() {
             <div className="container">
                 <div className='services'>
                     <h1 className='topic'>
-                        Nossos serviços  
-                    </h1> 
-                    <div className="separatorTopic"/>
+                        Nossos serviços
+                    </h1>
+                    <div className="separatorTopic" />
                     <div className='cardArea'>
-                        {services.map((service)=>{
+                        {services.map((service, index) => {
                             return (
-                                <div className="serviceListConteiner">
+                                <div className="serviceListConteiner" key={index}>
                                     <div className="serviceList">
-                                       <div className='serviceImageArea'>
-                                        <img className='serviceImage' src={lula} alt="serviceImage" />
-                                       </div>
-                                       <div className='serviceContent'>
+                                        <div className='serviceImageArea'>
+                                            <img className='serviceImage' src={service.image} alt="serviceImage" />
+                                        </div>
+                                        <div className='serviceContent'>
                                             <div className='serviceTitle'>
                                                 <h2>
                                                     {service.title}
                                                 </h2>
                                             </div>
-                                            <div className="separatorTopic"/>
+                                            <div className="separatorTopic" />
                                             <div className='serviceDescription'>
                                                 <p>
                                                     {service.description}
                                                 </p>
                                             </div>
-                                       </div>
+                                        </div>
                                     </div>
                                 </div>
                             )
-                        })} 
+                        })}
                     </div>
-                </div> 
-            </div>        
+                </div>
+            </div>
         </div>
     )
 }

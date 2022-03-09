@@ -1,18 +1,26 @@
 import '../styles/main.css'
 import '../styles/footer.css'
 import logoVertical from '../assets/logo/logo-core-vertical-white.png'
+import ButtonCta from './ButtonCta'
 
-export default function Footer(){
-    return(
+export default function Footer() {
+    function handleClick() {
+        console.log('Click')
+    }
+    return (
         <div className="containerFooter">
             <div className="container">
                 <div className="footerContent">
                     <div className="logoCoreFooter">
-                        <img src={logoVertical} className="logoFooter" alt="logo core vertical" />     
+                        <img src={logoVertical} className="logoFooter" alt="logo core vertical" />
                     </div>
                     <div className="footerCall">
                         <p className="callText">Estamos dispostos a mostrar à sociedade o impacto positivo que a Engenharia Biomédica é capaz de ofertar.</p>
-                        <button className="action">Escolha a CORE</button>
+                        <ButtonCta
+                            action={handleClick}
+                            label={'Escolha a CORE'}
+                            filled={false}
+                        />
                     </div>
                     <div className="footerAdress">
                         <h1 className="adressTitle">LOCALIZAÇÃO</h1>

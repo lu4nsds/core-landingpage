@@ -9,7 +9,6 @@ export default function Navigation() {
                 <div className="navigationList">
                     <a href="/#header" className="menuItem">
                         <div className="menuItemIcon">
-                            <h3>A</h3>
                         </div>
                         <span className="label">
                             Home
@@ -17,7 +16,6 @@ export default function Navigation() {
                     </a>
                     <a href="#" className="menuItem">
                         <div className="menuItemIcon">
-                            <h3>A</h3>
                         </div>
                         <span className="label">
                             Quem Somos
@@ -25,7 +23,6 @@ export default function Navigation() {
                     </a>
                     <a href="#" className="menuItem">
                         <div className="menuItemIcon">
-                            <h3>A</h3>
                         </div>
                         <span className="label">
                             Serviços
@@ -33,7 +30,6 @@ export default function Navigation() {
                     </a>
                     <a href="#" className="menuItem">
                         <div className="menuItemIcon">
-                            <h3>A</h3>
                         </div>
                         <span className="label">
                             Contato

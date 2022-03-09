@@ -4,6 +4,7 @@ import Header from "./components/Header"
 import Banner from "./components/Banner"
 import Services from "./components/Services"
 import SectionCta from "./components/SectionCta"
+import AboutUs from "./components/AboutUs"
 
 export default function App() {
 
@@ -13,8 +14,9 @@ export default function App() {
       <Header />
       <Banner />
       <SectionCta />
-      <Services/>
-      <Footer/>
+      <AboutUs />
+      <Services />
+      <Footer />
     </>
   )
 }

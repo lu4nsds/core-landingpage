@@ -1,0 +1,28 @@
+.aboutUsContent{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    flex-direction: column;
+    padding: 40px 0;
+    gap: 16px;
+}
+.containerAboutUs{
+    display: flex;
+    justify-content: center;
+}
+
+.containerAboutUs .separator{
+    background: #BDBFC1;
+}
+
+.titleAboutUs{
+    font-size: 32px;
+    font-weight: 800;
+    color: #00B8BF;
+}
+
+.textAboutUs{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
+}

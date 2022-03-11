@@ -23,6 +23,7 @@
     align-items: center;
     width: 100%;
     list-style: none;
+    
 }
 
 .menu .menuItem{
@@ -30,6 +31,8 @@
     border-bottom: 3px solid transparent;
     cursor: pointer;
     transition: 300ms;
+    text-decoration: none;
+    color: #fff;
 }
 .menu .menuItem:hover{
     border-bottom: 3px solid #00B8BF;

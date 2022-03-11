@@ -14,18 +14,18 @@ export default function Header() {
                             <img className='logoImage' src={logo} />
                         </div>
                         <ul className="menu">
-                            <li className="menuItem">
+                            <a href='#' className="menuItem">
                                 Início
-                            </li>
-                            <li className="menuItem">
+                            </a>
+                            <a href='#aboutus' className="menuItem">
                                 Quem Somos
-                            </li>
-                            <li className="menuItem">
+                            </a>
+                            <a href='#services' className="menuItem">
                                 Serviços
-                            </li>
-                            <li className="menuItem">
+                            </a>
+                            <a className="menuItem">
                                 Contato
-                            </li>
+                            </a>
                         </ul>
                         <button className="action">
                             Escolha a CORE

@@ -31,8 +31,8 @@ export default function Footer() {
                         </div>
                     </div>
                     <div className="footerMenu">
-                        <a href="#" className="aboutUs">Quem somos</a>
-                        <a href="#" className="servicos">Serviços</a>
+                        <a href="#aboutus" id='containerAboutUs' className="aboutUs">Quem somos</a>
+                        <a href="#services" className="servicos">Serviços</a>
                         <a href="#" className="contato">Contato</a>
                     </div>
                 </div>

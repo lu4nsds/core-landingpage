@@ -7,21 +7,21 @@ export default function Navigation() {
         <div className="containerNavigation">
             <div className="container">
                 <div className="navigationList">
-                    <a href="/#header" className="menuItem">
+                    <a href="#" className="menuItem">
                         <div className="menuItemIcon">
                         </div>
                         <span className="label">
-                            Home
+                            Início
                         </span>
                     </a>
-                    <a href="#" className="menuItem">
+                    <a href="#aboutus" className="menuItem">
                         <div className="menuItemIcon">
                         </div>
                         <span className="label">
                             Quem Somos
                         </span>
                     </a>
-                    <a href="#" className="menuItem">
+                    <a href="#services" className="menuItem">
                         <div className="menuItemIcon">
                         </div>
                         <span className="label">

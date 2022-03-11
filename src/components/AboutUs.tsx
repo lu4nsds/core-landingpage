@@ -4,7 +4,7 @@ import '../styles/aboutUs.css'
 export default function AboutUs() {
 
     return (
-        <div className="containerAboutUs">
+        <div id='aboutus' className="containerAboutUs">
             <div className="container">
                 <div className="aboutUsContent">
                     <h2 className='titleAboutUs'>
